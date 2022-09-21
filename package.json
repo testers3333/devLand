@@ -1,0 +1,19 @@
+{
+  "name": "devland",
+  "version": "1.0.0",
+  "description": "Ce github vous permet d'obtenir des codes gratuitements et simplements. Les codes sont faits par devLand.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "bdfd",
+    "aoijs",
+    "discordjs",
+    "bot",
+    "discord"
+  ],
+  "author": "devLand",
+  "license": "ISC"
+}
