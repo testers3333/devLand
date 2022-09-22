@@ -19,3 +19,4 @@
         - Les dossiers et fichiers portent leur nom, merci de ne pas le modifier. Tout doit-être copié, c'est différent du bdfd car là, il vous faut un handler pour séparer vos commandes dans des fichiers.
 */
 
+require('./DISCORD.JS/index');

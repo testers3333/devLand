@@ -1,6 +1,7 @@
 const { Client } = require('discord.js');
 const client = new Client({intents: 131071}); // discord.js v14.4.0
 const { config } = require('./bot.json');
+const db = require('quick.db');
 
 const fs = require('fs');
 const eventFolders = fs.readdirSync('./évènements');
@@ -11,11 +12,11 @@ for(const folder of eventFolders){
         if(!data.name) return console.log(`Le fichier ${file} n'a pas de nom d'évènement.`);
         if(!data.execute) return console.log(`Le fichier ${file} n'a pas de nom d'évènement.`);
         if(data.once){
-            client.once(data.name, (...args) => data.execute(client, ...args));
-            return console.log(`Le fichier ${file} contenant l'évènement ${data.name} vient de charger.`);
+            client.once(data.name, (...args) => data.execute(client, db, ...args));
+            console.log(`Le fichier ${file} contenant l'évènement ${data.name} vient de charger.`);
         } else {
-            client.on(data.name, (...args) => data.execute(client, ...args));
-            return console.log(`Le fichier ${file} contenant l'évènement ${data.name} vient de charger.`);
+            client.on(data.name, (...args) => data.execute(client, db, ...args));
+            console.log(`Le fichier ${file} contenant l'évènement ${data.name} vient de charger.`);
         }
     }
 }
@@ -33,5 +34,5 @@ client.login(config.token)
     INFORMATIONS !
         - Les commandes se trouvant dans le dossier "commandes" sont uniquement des slash's.
         - Le dossier "contextuels" est utilisé pour les commandes contextuels d'utilisateur ou de message.
-        - Installes discord.js & fs en utilisant cette commande "npm i discord.js@v14.4.0 fs" 
+        - Installes discord.js, quick.db & fs en utilisant cette commande "npm i discord.js@v14.4.0 fs quick.db@v7.1.3" 
 */

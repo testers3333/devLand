@@ -1,21 +1,25 @@
 const { Client } = require('discord.js');
+const db = require('quick.db');
 
 module.exports = {
     name: "ready",
-    once: true,
+    once: false,
     /**
      * 
      * @param {Client} client 
+     * @param {db} data
      */
-    async execute (client) {
+    async execute (client, data) {
         client.guilds.cache
-            .filter(async (g) => {
-                guild.members.cache.filter(async (m) => m.user.bot).size >= guild.members.cache.filter(async (m) => !m.user.bot).size
-                &&
-                guild.memberCount <= 15
+            .forEach((guild) => {
+                if(guild.memberCount <= 15){
+                    console.log(`Le serveur ${guild.name} avait ${guild.memberCount} membres dont ${guild.members.cache.filter((m) => m.user.bot).size} robots. Je l'ai donc quitté.`);
+                    return guild.leave();
+                }
+                if(guild.members.cache.filter((m) => m.user.bot).size >= guild.members.cache.filter((m) => !m.user.bot).size){
+                    console.log(`Le serveur ${guild.name} avait ${guild.memberCount} membres dont ${guild.members.cache.filter((m) => m.user.bot).size} robots. Je l'ai donc quitté.`);
+                    return guild.leave();
+                }
             })
-            .forEach((g) => {
-                return g.leave();
-            });
     }
 }
