@@ -1,5 +1,8 @@
+// eval this (using the file "eval.js"): $createApplicationCommand[$guildID(or global);rôle;avoir un rôle réaction;true]
 module.exports =[{
     name:"rôle",
+    type:"interaction",
+    prototype:"slash",
     code:`
     $title[AUTO-RÔLE]
     $description[
@@ -24,3 +27,4 @@ module.exports =[{
     $endif
     `
     }]
+// if you want to add more reaction roles just copy the code and add more buttons with more interactions
