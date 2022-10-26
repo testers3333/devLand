@@ -1,6 +1,6 @@
 module.exports ={
     name:"eval",
-    aliases:['e','ev'],
+    aliases:['e'],
     code:`
     $eval[$message;yes]
     `
