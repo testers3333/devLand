@@ -11,7 +11,12 @@ module.exports =[{
     ]
     $color[0d69ae]
     $addButton[1;📢;secondary;role;no;]
-    $onlyForIDs[$botOwnerID;]`
+    $onlyPerms[admin;{
+    "content" : "Seuls les membres ayant la permission \`\`admin\`\` peuvent utiliser cette commande",
+    "ephemeral" : true,
+    "options" : {
+    "interaction" : true
+    }}]`
     },{
     name:"role",
     type:"interaction",
