@@ -9,3 +9,8 @@
 ##### - ajout de la base de donnée quick.db
 ##### - handler des interactions
 ##### - ajout du /voice
+-----
+#### 26 octobre 2022
+##### - ajout des dossiers AOI.JS & commands
+##### - ajout des fichiers index & role
+##### - ajout du /rôles
