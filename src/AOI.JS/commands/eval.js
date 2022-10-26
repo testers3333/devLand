@@ -6,7 +6,7 @@ module.exports ={
     $onlyForIDs[$botOwnerID;Seul le développeur peut utiliser cette commande]
     `
   }
-// and if you want eval this: $createApplicationCommand[$guildID;eval;permet de tester une commande à partir d'une autre;true;slash;{
+// and if you want eval this for the code in slash command: $createApplicationCommand[$guildID;eval;permet de tester une commande à partir d'une autre;true;slash;{
 //             "name" : "code",
 //             "description" : "le code à tester",
 //             "type" : 3,
