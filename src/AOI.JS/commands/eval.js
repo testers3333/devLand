@@ -17,7 +17,8 @@ module.exports ={
     type:"interaction",
     prototype:"slash",
     code:`
-    $interactionReply[$eval[$interactionData[options.data[0].value];yes]]
+    $eval[$interactionData[options.data[0].value];yes]
+    $interactionReply[votre code vient d'être envoyé !;;;;;yes]
     $onlyForIDs[$botOwnerID;{
     "content" : "Seul le développeur peut utiliser cette commande",
     "ephemeral" : true,
