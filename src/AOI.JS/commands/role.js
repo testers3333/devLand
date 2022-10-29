@@ -1,8 +1,5 @@
-// eval this (using the file "eval.js"): $createApplicationCommand[$guildID(or global);rôle;avoir un rôle réaction;true]
 module.exports =[{
     name:"rôle",
-    type:"interaction",
-    prototype:"slash",
     code:`
     $title[AUTO-RÔLE]
     $description[
