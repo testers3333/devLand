@@ -19,7 +19,7 @@ module.exports ={
 //             "name" : "name of the option",
 //             "description" : "the description of the option",
 //             "type" : 3,
-//             "required" : true (false for by that is not required)
+//             "required" : true (or false)
 //    }]
 // type: 3 == message / 4 == number / 5 == True or False / 6 == user / 7 == channel / 8 == role / 9 == everything that is mentionable
 // for an ephemeral answer: $interactionReply[The answer when using slash;;;;;yes]
