@@ -14,3 +14,6 @@
 ##### - ajout des dossiers AOI.JS & commands
 ##### - ajout des fichiers index & role & eval
 ##### - ajout du /rôles & /eval || =eval
+-----
+#### 05 novembre 2022
+##### - ajout du fichier `slash explication.js`
