@@ -3,7 +3,7 @@ const aoijs = require("aoi.js")
 
 const bot = new aoijs.AoiClient({
   token: "bot token",
-  prefix: ["$getServerVar[prefix]","<@$clientID>","<@!$clientID>","$username[$clientID]"],
+  prefix: ["$getServerVar[prefix]","<@$clientID>"],
   intents: "all",
           database: {
 
