@@ -34,7 +34,7 @@ module.exports ={
 // {author:an author text:image link}
 // {color:hex color for embed}
 // {attachment:name.extension:image link} available extensions : png/webp/gif(for the video)/etc...
-// for not error: {suppress:yes/no}
+// for not error: {suppress:yes(or no)}
 // {reactions:emoji,emoji2,etc...}
 // {delete:time}
 // {image:image link}
