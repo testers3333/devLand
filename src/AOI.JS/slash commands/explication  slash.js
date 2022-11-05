@@ -15,7 +15,7 @@ module.exports ={
     $interactionReply[Your text: $interactionData[options.data[0].value]] 
     `
   }
-// the code to eval for the code on top : $createApplicationCommand[$guildID;eval;permet de tester une commande à partir d'une autre;true;slash;{
+// the code to eval for the code on top : $createApplicationCommand[$guildID;name of slash;description of slash;true;slash;{
 //             "name" : "name of the option",
 //             "description" : "the description of the option",
 //             "type" : 3,
