@@ -89,9 +89,9 @@ bot.onRateLimit()
 bot.onWebhookUpdate();
 
 bot.status({
-  text: "Made with ❤️ by DevLand",
-  type: "PLAYING",
-  status: "idle",
+  text: "Made with ❤️ by DevLand", // you can change this by what do you want
+  type: "PLAYING", // or COMPTETITING/WATCHING/LISTENING
+  status: "idle", // or dnd/online/offline
   time: 12
 })
 
@@ -100,5 +100,5 @@ const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd, "./commands/")
 
 bot.variables({
-  prefix: "=",
+  prefix: "=", // you can change by the prefix do you want
 })
