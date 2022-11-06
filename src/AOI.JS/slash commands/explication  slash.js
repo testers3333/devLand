@@ -21,7 +21,7 @@ module.exports ={
 //             "type" : 3,
 //             "required" : true (or false)
 //    }]
-// type: 3 == message / 4 == number / 5 == True or False / 6 == user / 7 == channel / 8 == role / 9 == everything that is mentionable
+// type: 3 == message / 4 == number / 5 == True or False in option / 6 == user / 7 == channel / 8 == role / 9 == everything that is mentionable
 // for an ephemeral answer: $interactionReply[The answer when using slash;;;;;yes]
 // for an embed answer: $interactionReply[;{newEmbed:{description:The answer when using slash}}]
 // for a button answer: $interactionReply[content;;{actionRow:{button:name of the button:color:id of the button:no(yes for disabled the button):emoji}}] 
