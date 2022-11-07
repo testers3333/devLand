@@ -44,16 +44,16 @@ module.exports ={
 // {url:link} for a link on the title
 // {title:a title text}
 // These elements work only in these functions :
-//$sendMessage
-//$sendWebhook
-//$sendDM
-//$sendCrosspostingMessage
-//$channelSendMessage
-//$onlyIf
-//$onlyBotPerms
-//$onlyPerms
-//$onlyIfMessageContains
-//$suppressErrors
-//$argsCheck
-//$cooldown
-//$onlyForIDs
+// $sendMessage
+// $sendWebhook
+// $sendDM
+// $sendCrosspostingMessage
+// $channelSendMessage
+// $onlyIf
+// $onlyBotPerms
+// $onlyPerms
+// $onlyIfMessageContains
+// $suppressErrors
+// $argsCheck
+// $cooldown
+// $onlyForIDs
