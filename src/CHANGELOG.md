@@ -13,5 +13,5 @@
 ## Octobre
 - ajout des dossiers `AOI.JS` & `commands`
 - ajout des fichiers `index` & `role` & `eval`
-- ajout du /rôles & `/eval` || `=eval`
+- ajout du /rôles & `/eval` || `{prefix}eval`
 - ajout du fichier `slash explication.js`
