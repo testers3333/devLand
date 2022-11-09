@@ -17,4 +17,4 @@
 - ajout du fichier [`slash explication.js`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/slash%20commands/explication%20%20slash.js)
 
 ## Novembre
-- ajout du dossier [`embed options`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/embed%20options.js/options.txt)
+- ajout du dossier [`embed options`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/embed%20options.js/options)
