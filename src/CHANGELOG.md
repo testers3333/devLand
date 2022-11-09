@@ -11,10 +11,19 @@
 - ajout du [`/voice`](https://github.com/testers3333/devLand/blob/main/src/DISCORD.JS/commandes/voice/voice.js)
 
 ## Octobre
-- ajout des dossiers [`AOI.JS`](https://github.com/testers3333/devLand/tree/main/src/AOI.JS) & [`commands`](https://github.com/testers3333/devLand/tree/main/src/AOI.JS/commands)
-- ajout des fichiers [`index`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/index.js) & [`role`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/commands/role.js) & [`eval`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/commands/eval.js)
-- ajout du [`/rôles`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/slash%20commands/role.js) & [`/eval`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/slash%20commands/eval.js) || [`{prefix}eval`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/commands/eval.js)
+- ajout du dossier [`AOI.JS`](https://github.com/testers3333/devLand/tree/main/src/AOI.JS)<br>
+- ajout du dossier [`commands`](https://github.com/testers3333/devLand/tree/main/src/AOI.JS/commands)
+- ajout du fichier [`index`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/index.js)<br>
+- ajout du fichier [`role`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/commands/role.js)<br>
+- ajout du fichier [`eval`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/commands/eval.js)<br>
+- ajout du [`/rôles`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/slash%20commands/role.js)<br>
+- ajout du fichier [`/eval`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/slash%20commands/eval.js)
 - ajout du fichier [`slash explication.js`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/slash%20commands/explication%20%20slash.js)
 
 ## Novembre
 - ajout du dossier [`embed options`](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/embed%20options.js/options)
+- ajout du dossier [`BDFD`](https://github.com/testers3333/devLand/blob/main/src/BDFD)<br>
+- ajout du dossier [`commands`](https://github.com/testers3333/devLand/blob/main/src/BDFD/commands)<br>
+- ajout du dossier[`Événements`](https://github.com/testers3333/devLand/blob/main/src/BDFD/Événements)
+- ajout du fichier [`Eval`](https://github.com/testers3333/devLand/blob/main/src/BDFD/commands/eval.md)<br>
+- ajout du fichier [`$onJoined[]`](https://github.com/testers3333/devLand/blob/main/src/BDFD/Événements/$onJoined[].md)
