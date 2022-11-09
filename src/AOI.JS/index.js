@@ -94,7 +94,7 @@ bot.status({
   status: "idle", // or dnd/online/offline
   time: 12
 })
-
+// if you want a 2nd status just add the same code what you see on the top here
 
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd, "./commands/")
