@@ -1,9 +1,10 @@
-// eval this: $createApplicationCommand[$guildID;eval;permet de tester une commande à partir d'une autre;true;slash;{
-//             "name" : "code",
-//             "description" : "le code à tester",
-//             "type" : 3,
-//             "required" : true
-//    }]
+/* eval this: $createApplicationCommand[$guildID;eval;permet de tester une commande à partir d'une autre;true;slash;{
+             "name" : "code",
+             "description" : "le code à tester",
+             "type" : 3,
+             "required" : true
+    }]
+*/
 module.exports ={
     name:"eval",
     type:"interaction",
