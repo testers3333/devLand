@@ -90,7 +90,7 @@ bot.onWebhookUpdate();
 
 bot.status({
   text: "Made with ❤️ by DevLand", // you can change this by what do you want
-  type: "PLAYING", // or COMPTETITING/WATCHING/LISTENING
+  type: "PLAYING", // or COMPTETITING/WATCHING/LISTENING/STREAMING
   status: "idle", // or dnd/online/offline
   time: 12
 })
