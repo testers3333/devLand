@@ -1,3 +1,4 @@
+```js
 module.exports ={
     name:"name of slash",
     type:"interaction",
@@ -6,6 +7,7 @@ module.exports ={
     $interactionReply[The answer when using slash] 
     `
   }
+```
 // the code to eval for the code on top : $createApplicationCommand[$guildID;name of slash;description of slash;true]
 module.exports ={
     name:"name of slash",
