@@ -100,5 +100,5 @@ const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd, "./commands/")
 
 bot.variables({
-  prefix: "=", // you can change by the prefix do you want
+  prefix: "=", // you can change by the prefix you want
 })
