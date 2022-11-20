@@ -1,4 +1,6 @@
-// in your terminal: npm i aoi.js and npm i dotenv 
+/* in your terminal: npm i aoi.js" and "npm i dotenv
+and to connect your bot node .
+*/
 const aoijs = require("aoi.js")
 
 const bot = new aoijs.AoiClient({
@@ -89,7 +91,7 @@ bot.onRateLimit()
 bot.onWebhookUpdate();
 
 bot.status({
-  text: "Made with ❤️ by DevLand", // you can change this by what do you want
+  text: "Made with ❤️ by DevLand", // you can change that by whatever you want
   type: "PLAYING", // or COMPTETITING/WATCHING/LISTENING/STREAMING
   status: "idle", // or dnd/online/offline
   time: 12
