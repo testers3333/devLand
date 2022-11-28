@@ -1,9 +1,17 @@
 Options for components :
-for a button answer: {actionRow:{button:name of the button:color:id of the button:no(yes for disabled the button):emoji}}
+for a button answer: 
+{actionRow:{button:name of the button:color:id of the button:no(yes for disabled the button):emoji}}
+
 (color => primary == blue / danger == red / success == green / secondary == grey)
-for a select menu answer: {selectMenu:id of the select:placeholder:1:1:no:{selectMenuOptions:title of the option:id of the option:description oh the option:no(yes to show the option in placeholder):emoji}{selectMenuOptions:title of the option:id of the option:description oh the option:no(yes to show the option in placeholder):emoji}}
+
+for a link button :
+{actionRow:{button:name of the button:link:the link you want:no:emoji}}
+
+for a select menu answer: 
+{selectMenu:id of the select:placeholder:1:1:no:{selectMenuOptions:title of the option:id of the option:description oh the option:no(yes to show the option in placeholder):emoji}{selectMenuOptions:title of the option:id of the option:description oh the option:no(yes to show the option in placeholder):emoji}}
 
 Options for embed :
+
 {thumbnail:image link}
 {edit:duration:{new message}:{new message}:{etc...}}
 {timestamp} for ms : {timestamp:ms}
@@ -19,7 +27,9 @@ for not error: {suppress:yes(or no)}
 {footer:a footer text:image link}
 {url:link} for a link on the title
 {title:a title text}
+
 These elements work only in these functions :
+
 $sendMessage
 $sendWebhook
 $sendDM
