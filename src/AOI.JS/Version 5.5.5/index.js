@@ -1,5 +1,5 @@
 /* in your terminal: npm i aoi.js" and "npm i dotenv
-and to connect your bot node .
+and for connect your bot it's node .
 */
 const aoijs = require("aoi.js")
 
@@ -96,11 +96,11 @@ bot.status({
   status: "idle", // or dnd/online/offline
   time: 12
 })
-// if you want a 2nd status just add the same code what you see on the top here
+// if you want a 2nd status simply add the same code as the one you see above here
 
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd, "./commands/")
 
 bot.variables({
-  prefix: "=", // you can change by the prefix you want
+  prefix: "=", // Change this by the prefix you want  
 })
