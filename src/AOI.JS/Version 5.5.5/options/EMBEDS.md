@@ -1,3 +1,4 @@
+## You should always start your code line with {newEmbed:here options}
 Options for components :
 for a button answer: 
 ```js
