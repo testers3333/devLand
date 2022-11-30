@@ -10,7 +10,7 @@ module.exports ={
   }
 ```
 the code to be evaluated for the code at the top : 
-```txt
+```css
 $createApplicationCommand[$guildID;name of slash;description of slash;true]
 ```
 ```js
@@ -24,7 +24,7 @@ module.exports ={
   }
 ```
 the code to be evaluated for the code at the top : 
-```txt
+```css
     $createApplicationCommand[$guildID;name of slash;description of slash;true;slash;{
              "name" : "name of the option",
              "description" : "the description of the option",
