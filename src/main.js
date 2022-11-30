@@ -7,7 +7,7 @@
                 - $onInteraction[] // Les codes possédants les intéractions, si aucun crochet n'est mit, alors, il ne faut pas en mettre.
                 - $onAutoComplete[] // Les codes possédants les complétions automatiques pour les slash's, si aucun crochet n'est mit, alors, il ne faut pas en mettre.
             - Mais ! Ils possèdent forcément ces fichiers:
-                - <command_name>.txt // Code contenant le code.
+                - <command_name>.md // Code contenant le code.
                 - README.md // description de la commande avec une image montrant le résultat de la commande.
                 - SLASH.md // les différentes valeurs et options à inscrire à votre slash.
         - Le dossier "évènements" est différent de "commandes" dans le terme que lui ne possède que les triggers utilisables une seule fois. Tel que $onJoined[], $onLeave[]...
