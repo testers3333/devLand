@@ -35,8 +35,10 @@ Options for embed :
 {color:hex color for embed}
 ```
 ```js
-{attachment:name.extension:image link} available extensions : png/webp/gif(for the video)/etc...
+{attachment:name.extension:image link}
 ```
+available extensions : png/webp/gif(for the video)/etc...
+
 ```js
 {reactions:emoji,emoji2,etc...}
 ```
