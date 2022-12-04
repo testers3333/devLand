@@ -32,7 +32,7 @@ the code to be evaluated for the code at the top :
              "required" : true (or false)
     }]
 ```
- type: 3 == message / 4 == number / 5 == True or False in option / 6 == user / 7 == channel / 8 == role / 9 == everything that is mentionable
+ type: 3 == message / 4 == number / 5 == Boolean / 6 == user / 7 == channel / 8 == role / 9 == everything that is mentionable
  for an ephemeral answer : 
 ```js 
  $interactionReply[The answer when using slash;;;;;yes]
