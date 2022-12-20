@@ -41,4 +41,4 @@ the code to be evaluated for the code at the top :
 ```js 
  $interactionReply[;{newEmbed:{description:The answer when using slash}}]
 ``` 
-For more options go to the files "[EMBEDS.md](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/Version%205.5.5/options/EMBEDS.md)"
+For more options on the embeds go to the files "[EMBEDS.md](https://github.com/testers3333/devLand/blob/main/src/AOI.JS/Version%205.5.5/options/EMBEDS.md)"
