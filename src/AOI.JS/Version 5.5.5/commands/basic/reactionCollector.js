@@ -1,8 +1,8 @@
 module.exports =[{
   name:"reaction",
   code:`
-$reactionCollector[$channelID;$get[id];everyone;;❌;reac;yes]
-$let[id;$sendMessage[Hello, you know the best aoi.js encoder ?;yes]]`
+  $reactionCollector[$channelID;$get[id];everyone;;❌;reac;yes]
+  $let[id;$sendMessage[Hello, you know the best aoi.js encoder ?;yes]]`
 },{
   name:"reac",
   type:"awaited",
