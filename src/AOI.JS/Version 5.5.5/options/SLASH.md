@@ -29,7 +29,7 @@ the code to be evaluated for the code at the top :
              "name" : "name of the option",
              "description" : "the description of the option",
              "type" : 3,
-             "required" : true (or false)
+             "required" : true
     }]
 ```
  type: 3 == message / 4 == number / 5 == Boolean / 6 == user / 7 == channel / 8 == role / 9 == everything that is mentionable
