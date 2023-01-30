@@ -9,5 +9,5 @@ print(identite("Votre pseudo", "votre prenom","votre age", "votre ville"))
 -- resultat est la variable où l'on stockera les informations données via la fonction identite
 -- return sert à savoir ce que va retourner la fonction, ici on retournera la variable avec les informations soit "resultat"
 -- end sert à fermer le function
--- print sert à exécuter n'importe qu'elle chose dans votre terminale lors du lancement du jeux
+-- print sert à exécuter n'importe qu'elle chose dans votre terminale
 -- identite(...) sert à donner les informations pour pouvoir les stocker dans la variable "resultat"
