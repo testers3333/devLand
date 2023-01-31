@@ -1,4 +1,4 @@
-/* in your terminal: npm i aoi.js" and "npm i dotenv
+/* in your terminal: npm i aoi.js@5.5.5" and "npm i dotenv
 and for connect your bot it's node .
 */
 const aoijs = require("aoi.js")
