@@ -58,8 +58,9 @@ available extensions : png/webp/gif(for the video)/etc...
 {footer:a footer text:image link}
 ```
 ```js
-{url:link} for a link on the title
+{url:link}
 ```
+for a link in title
 ```js
 {title:a title text}
 ```
