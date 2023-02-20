@@ -1,6 +1,6 @@
-/* eval this: {your.prefix}eval $createApplicationCommand[$guildID;eval;permet de tester une commande à partir d'une autre;true;slash;{
+/* eval this: {your.prefix}eval $createApplicationCommand[$guildID;eval;A simple slash command eval;true;slash;{
              "name" : "code",
-             "description" : "le code à tester",
+             "description" : "The code to test",
              "type" : 3,
              "required" : true
     }]
