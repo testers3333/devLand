@@ -1,4 +1,4 @@
-// eval this (using the file "eval.js"): $createApplicationCommand[$guildID(or global);rôle;avoir un rôle réaction;true]
+// eval this (using the file "eval.js"): $createApplicationCommand[$guildID(or global);rôle;A simple slash command role reaction;true]
 module.exports =[{
     name:"rôle",
     type:"interaction",
