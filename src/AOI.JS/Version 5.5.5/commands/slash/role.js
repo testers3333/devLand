@@ -1,10 +1,10 @@
 // eval this (using the file "eval.js"): $createApplicationCommand[$guildID(or global);rôle;A simple slash command role reaction;true]
 module.exports =[{
-    name:"rôle",
+    name:"role",
     type:"interaction",
     prototype:"slash",
     code:`
-    $title[AUTO-RÔLE]
+    $title[ROLE REACTION]
     $description[
     **CHOIX**
     <@&id role> ➜ 📢
@@ -12,7 +12,7 @@ module.exports =[{
     $color[0d69ae]
     $addButton[1;📢;secondary;role;no;]
     $onlyPerms[admin;{
-    "content" : "Seuls les membres ayant la permission \`\`admin\`\` peuvent utiliser cette commande",
+    "content" : "Only members with the \`\`admin\`\` permission can use this command !",
     "ephemeral" : true,
     "options" : {
     "interaction" : true
@@ -25,10 +25,10 @@ module.exports =[{
     code:`
     $if[$hasRoles[$guildID;$authorID;id role]==true]
     $takeRole[$guildID;$authorID;id role]
-    $interactionReply[;{newEmbed:{title:❎・Retrait}{description:Le rôle <@&id role> vous a bien été retiré}{color:0d69ae}};;;;yes]
+    $interactionReply[;{newEmbed:{title:❎・Removed}{description:The role <@&id role> has been removed from your roles}{color:0d69ae}};;;;yes]
     $else
     $giveRole[$guildID;$authorID;id role]
-    $interactionReply[;{newEmbed:{title:✅・Ajout}{description:Le rôle <@&id role> vous a bien été ajouté}{color:0d69ae}};;;;yes]
+    $interactionReply[;{newEmbed:{title:✅・Added}{description:The role <@&id role> has been added to your roles}{color:0d69ae}};;;;yes]
     $endif
     `
     }]
