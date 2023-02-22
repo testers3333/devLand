@@ -3,6 +3,6 @@ module.exports ={
     aliases:['e'],
     code:`
     $eval[$message;yes]
-    $onlyForIDs[$botOwnerID;Seul le développeur peut utiliser cette commande]
+    $onlyForIDs[$botOwnerID;Only my owner has access to this command !]
     `
   }
