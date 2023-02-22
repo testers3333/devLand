@@ -7,6 +7,6 @@ module.exports =[{
   name:"reac",
   type:"awaited",
   code:`
-  $editMessage[$message[1];"Qué miras bobo"]
+  $editMessage[$message[1];Qué miras bobo 🇦🇷]
   `
 }]
