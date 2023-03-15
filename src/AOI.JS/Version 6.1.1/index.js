@@ -1,3 +1,5 @@
+// in your terminal : npm i aoi.js@latest aoi.parser@1.2.3 fs
+
 const aoijs = require("aoi.js");
 const { Util } = require("aoi.js");
 const fs = require('fs');
