@@ -1,5 +1,5 @@
 module.exports ={
-	name:"$alwaysExecute",
+    name:"$alwaysExecute",
     code:`
     $addClientReactions[👋]
     Hello !
