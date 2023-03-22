@@ -27,6 +27,6 @@ module.exports =[{
     type:"interaction",
     prototype:"modal",
     code:`
-    	$interactionReply[<@$findUser[$textInputValue[first]]> => $textInputValue[second];;;;all]
+    	$interactionReply[$textInputValue[first] => $textInputValue[second];;;;all]
     `
   }]
