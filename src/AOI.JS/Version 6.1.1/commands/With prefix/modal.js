@@ -1,8 +1,6 @@
 // aoi.parser@1.2.3 is important to have for this code !
 module.exports =[{
   name:"modal",
-  type:"interaction",
-  prototype:"slash",
   code:`
   $sendMessage[Your modal test is below{actionRow:1
         {button: first visualization:primary:st:no}
