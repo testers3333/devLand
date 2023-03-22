@@ -1,7 +1,5 @@
 module.exports =[{
   name:"modal",
-  type:"interaction",
-  prototype:"slash",
   code:`
   Your modal test is below
   $addButton[1;first visualization;primary;st;no]
