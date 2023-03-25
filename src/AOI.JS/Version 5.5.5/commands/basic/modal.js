@@ -2,8 +2,8 @@ module.exports =[{
   name:"modal",
   code:`
   Your modal test is below
-  $addButton[1;first visualization;primary;st;no]
-  $addButton[2;second visualization;2;primary;nd;no}
+  $addButton[1;first visualization;primary;st_visualization;no]
+  $addButton[2;second visualization;2;primary;nd_visualization;no}
   `
   },{
     type:"interaction",
