@@ -1,5 +1,5 @@
 ## Eval code
 ```js
 $eval[$message]
-$onlyForIDs[$botOwnerID;Vous ne pouvez pas utiliser cette commande]
+$onlyForIDs[$botOwnerID;You can't use this command !]
 ```
