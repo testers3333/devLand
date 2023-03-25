@@ -3,10 +3,10 @@ module.exports =[{
   name:"modal",
   code:`
   $sendMessage[Your modal test is below{actionRow:1
-        {button: first visualization:primary:st:no}
+        {button: first visualization:primary:st_visualization:no}
     }
     {actionRow:2
-       {button:second visualization:primary:nd:no}
+       {button:second visualization:primary:nd_visualization:no}
     }]
   `
   },{
