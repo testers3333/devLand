@@ -99,8 +99,8 @@ $endif
 <img src="https://cdn.discordapp.com/attachments/1088512918892580884/1089666323249909871/IMG_7540.png"/>
 
 #PREVIEW
-<img src=""/>
-<img src=""/>
+<img src="https://cdn.discordapp.com/attachments/1088512865247436890/1089669666290548807/IMG_7542.png"/>
+<img src="https://cdn.discordapp.com/attachments/1088512865247436890/1089669666630271046/IMG_7541.png"/>
 
 ### INFOS
 
