@@ -1,4 +1,5 @@
 # Lock et Unlock code
++ islocked = false
 ```ruby
 $nomention
 $defer
@@ -91,10 +92,15 @@ $else
 $endif
 ```
 
+# SLASH COMMAND
 <img src="https://cdn.discordapp.com/attachments/1088512918892580884/1089666291813601330/IMG_7537.png"/>
 <img src="https://cdn.discordapp.com/attachments/1088512918892580884/1089666300441284628/IMG_7538.png"/>
 <img src="https://cdn.discordapp.com/attachments/1088512918892580884/1089666310897668177/IMG_7539.png"/>
 <img src="https://cdn.discordapp.com/attachments/1088512918892580884/1089666323249909871/IMG_7540.png"/>
+
+#PREVIEW
+<img src=""/>
+<img src=""/>
 
 ### INFOS
 
